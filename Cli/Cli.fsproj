@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.fs" />
+    <Compile Include="test.fsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lor1.html" />
+    <Content Include="lor2.html" />
+    <Content Include="lor3.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Data" Version="3.0.0" />
+    <PackageReference Include="XPlot.Plotly" Version="1.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.6.0" />
+  </ItemGroup>
+</Project>
